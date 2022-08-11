@@ -19,6 +19,12 @@ export const cryptoApi = createApi({
         })
     })
 });
+
+export const {
+    useGetCryptosQuery,
+} = cryptoApi;
+
+
 // const options = {
 //     method: 'GET',
 //     url: 'https://coinranking1.p.rapidapi.com/coins',
